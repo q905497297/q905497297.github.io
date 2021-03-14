@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Kube for Hugo</title>
+    <link>https://q905497297.github.io/post/</link>
+    <description>Recent content in Posts on Kube for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Mar 2021 21:08:50 +0800</lastBuildDate><atom:link href="https://q905497297.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://q905497297.github.io/post/test/</link>
+      <pubDate>Sat, 13 Mar 2021 21:08:50 +0800</pubDate>
+      
+      <guid>https://q905497297.github.io/post/test/</guid>
+      <description>使用hugo+GitHub Page搭建个人网站 一/软件安装准备
+ hugo— GitHub客户端—网页代码托管 Typora—  一、hugo安装及配置   在hugo的官方下载地址下载对应的操作系统版本安装文件，以windows64位操作系统为例，下载对应的hugo_0.81.0_Windows-64bit.zip。
+  下载完成后，解压得到以下文件。
+  配置环境变量。
+  如步骤2所示，hugo.exe当前路径为F:\hugo\bin。
+  右键点击此电脑，选择”属性“，打开控制面板后选择”高级系统设置“。
+  选择环境变量，配置系统变量path。
+  填入hugo.exe所在的路径，如图，当前安装路径为F:\hugo\bin。配置完成后点击“确定”。
+    打开命令行，执行以下命令查看是否安装成功。
+hugo version
+hugo v0.81.0-59D15C97 windows/amd64 BuildDate=2021-02-19T17:07:12Z VendorInfo=gohugoio 显示该条即表示安装成功。
+  进入F:\hugo下，打开命令窗口，执行如下命令。
+hugo new site文件名称（如blog）
+执行后，在hugo目录下会生成一个blog文件夹
+  进入blog目录下，执行以下命令。
+hugo new post/test.md
+执行后，在content/post目录下会生成test.md文件，这个文件就是网页的主要内容，需要用markdown编辑工具，如Typora来编辑内容。同时需要将文件头部的draft改为false，这样部署了才能看到文章。
+  进入blog下的themes目录。
+cd themes
+  执行以下命令下载主题。
+git clone https://github.com/EmielH/tale-hugo.git
+（可在官网选择想要的主题下载）
+  到blog目录下打开config.</description>
+    </item>
+    
+  </channel>
+</rss>

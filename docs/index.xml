@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Kube for Hugo</title>
+    <link>https://q905497297.github.io/docs/</link>
+    <description>Recent content in Docs on Kube for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Apr 2017 16:43:36 +0100</lastBuildDate><atom:link href="https://q905497297.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick Start</title>
+      <link>https://q905497297.github.io/docs/quick-start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/quick-start/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Custom Plugins</title>
+      <link>https://q905497297.github.io/docs/custom-plugins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/custom-plugins/</guid>
+      <description>&amp;lt;span class=&amp;quot;hljs-comment&amp;quot;&amp;gt;// default settings&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-keyword&amp;quot;&amp;gt;this&amp;lt;/span&amp;gt;.defaults = {mysetting: &amp;lt;span class=&amp;quot;hljs-literal&amp;quot;&amp;gt;true&amp;lt;/span&amp;gt;};&amp;lt;span class=&amp;quot;hljs-comment&amp;quot;&amp;gt;// Parent Constructor&amp;lt;/span&amp;gt;Kube.apply(&amp;lt;span class=&amp;quot;hljs-keyword&amp;quot;&amp;gt;this&amp;lt;/span&amp;gt;, &amp;lt;span class=&amp;quot;hljs-built_in&amp;quot;&amp;gt;arguments&amp;lt;/span&amp;gt;);&amp;lt;span class=&amp;quot;hljs-comment&amp;quot;&amp;gt;// Initialization&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-keyword&amp;quot;&amp;gt;this&amp;lt;/span&amp;gt;.start();};&amp;lt;span class=&amp;quot;hljs-comment&amp;quot;&amp;gt;// Functionality&amp;lt;/span&amp;gt;Kube.Myplugin.prototype = {start: &amp;lt;span class=&amp;quot;hljs-function&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;hljs-keyword&amp;quot;&amp;gt;function&amp;lt;/span&amp;gt;(&amp;lt;span class=&amp;quot;hljs-params&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;)&amp;lt;/span&amp;gt;{&amp;lt;span class=&amp;quot;hljs-comment&amp;quot;&amp;gt;// plugin element&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-built_in&amp;quot;&amp;gt;console&amp;lt;/span&amp;gt;.log(&amp;lt;span class=&amp;quot;hljs-keyword&amp;quot;&amp;gt;this&amp;lt;/span&amp;gt;.$element);&amp;lt;span class=&amp;quot;hljs-comment&amp;quot;&amp;gt;// call options&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-built_in&amp;quot;&amp;gt;console&amp;lt;/span&amp;gt;.log(&amp;lt;span class=&amp;quot;hljs-keyword&amp;quot;&amp;gt;this&amp;lt;/span&amp;gt;.opts.mysetting);&amp;lt;span class=&amp;quot;hljs-comment&amp;quot;&amp;gt;// call methods&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-keyword&amp;quot;&amp;gt;this&amp;lt;/span&amp;gt;.method();},method: &amp;lt;span class=&amp;quot;hljs-function&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;hljs-keyword&amp;quot;&amp;gt;function&amp;lt;/span&amp;gt;(&amp;lt;span class=&amp;quot;hljs-params&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;)&amp;lt;/span&amp;gt;{&amp;lt;span class=&amp;quot;hljs-comment&amp;quot;&amp;gt;// do something...&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-comment&amp;quot;&amp;gt;// callback&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-keyword&amp;quot;&amp;gt;this&amp;lt;/span&amp;gt;.</description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://q905497297.github.io/docs/typography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/typography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grid</title>
+      <link>https://q905497297.github.io/docs/grid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/grid/</guid>
+      <description>&amp;lt;!&amp;ndash; html &amp;ndash;&amp;gt;&amp;lt;divid=&amp;ldquo;container&amp;rdquo;&amp;gt;&amp;lt;divid=&amp;ldquo;sidebar&amp;rdquo;&amp;gt;Sidebar&amp;lt;/div&amp;gt;&amp;lt;divid=&amp;ldquo;content&amp;rdquo;&amp;gt;Content&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;@include grid-media-columns(2); &amp;amp;amp; &amp;amp;gt; div { margin-bottom: 20px; height: 80px; } &amp;amp;amp; &amp;amp;gt; div:nth-child(2n) { height: 200px; } &amp;amp;amp; &amp;amp;gt; div:nth-child(5n) { height: 120px; }  }
+&amp;lt;!&amp;ndash; html &amp;ndash;&amp;gt;&amp;lt;divid=&amp;ldquo;media-grid&amp;rdquo;&amp;gt;&amp;lt;div&amp;gt;1&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;2&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;3&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;4&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;5&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;6&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;7&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;8&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;9&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;10&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Tables</title>
+      <link>https://q905497297.github.io/docs/tables/</link>
+      <pubDate>Mon, 10 Apr 2017 16:40:43 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/tables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Forms</title>
+      <link>https://q905497297.github.io/docs/forms/</link>
+      <pubDate>Mon, 10 Apr 2017 16:40:50 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/forms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Buttons</title>
+      <link>https://q905497297.github.io/docs/buttons/</link>
+      <pubDate>Mon, 10 Apr 2017 16:41:16 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/buttons/</guid>
+      <description>&amp;lt;buttonclass=&amp;ldquo;button outline&amp;rdquo;&amp;gt;&amp;lt;iclass=&amp;ldquo;kube-search&amp;rdquo;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/button&amp;gt;&amp;lt;buttonclass=&amp;ldquo;button secondary outline&amp;rdquo;&amp;gt;&amp;lt;iclass=&amp;ldquo;kube-search&amp;rdquo;&amp;gt;&amp;lt;/i&amp;gt;Search&amp;lt;/button&amp;gt;// html&amp;lt;buttonclass=&amp;ldquo;button red&amp;rdquo;&amp;gt;Button&amp;lt;/button&amp;gt; &amp;lt;buttonclass=&amp;ldquo;button red outline&amp;rdquo;&amp;gt;Button&amp;lt;/button&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Labels</title>
+      <link>https://q905497297.github.io/docs/labels/</link>
+      <pubDate>Mon, 10 Apr 2017 16:40:43 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/labels/</guid>
+      <description>&amp;lt;!&amp;ndash; html &amp;ndash;&amp;gt;&amp;lt;spanclass=&amp;ldquo;label custom&amp;rdquo;&amp;gt;Label&amp;lt;/span&amp;gt;&amp;lt;spanclass=&amp;ldquo;label badge custom&amp;rdquo;&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;spanclass=&amp;ldquo;label tag custom&amp;rdquo;&amp;gt;Tag&amp;lt;/span&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Messages</title>
+      <link>https://q905497297.github.io/docs/messages/</link>
+      <pubDate>Mon, 10 Apr 2017 16:41:34 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/messages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tabs</title>
+      <link>https://q905497297.github.io/docs/tabs/</link>
+      <pubDate>Mon, 10 Apr 2017 16:41:40 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/tabs/</guid>
+      <description>&amp;lt;divid=&amp;ldquo;tab1&amp;rdquo;&amp;gt;&amp;hellip;&amp;lt;/div&amp;gt;&amp;lt;divid=&amp;ldquo;tab2&amp;rdquo;&amp;gt;&amp;hellip;&amp;lt;/div&amp;gt;&amp;lt;navid=&amp;ldquo;tabs&amp;rdquo;class=&amp;ldquo;tabs&amp;rdquo;data-component=&amp;ldquo;tabs&amp;rdquo;&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;&amp;lt;ahref=&amp;quot;#tab1&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;liclass=&amp;ldquo;active&amp;rdquo;&amp;gt;&amp;lt;ahref=&amp;quot;#tab2&amp;quot;&amp;gt;Shop&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;&amp;lt;ahref=&amp;quot;#tab3&amp;quot;&amp;gt;Catalog&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;&amp;lt;ahref=&amp;quot;#tab4&amp;quot;&amp;gt;T-Shirts&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;&amp;lt;ahref=&amp;quot;#tab5&amp;quot;&amp;gt;Brand&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/nav&amp;gt;&amp;lt;divid=&amp;ldquo;tab1&amp;rdquo;&amp;gt;&amp;hellip;&amp;lt;/div&amp;gt;&amp;lt;divid=&amp;ldquo;tab2&amp;rdquo;&amp;gt;&amp;hellip;&amp;lt;/div&amp;gt;&amp;lt;divid=&amp;ldquo;tab3&amp;rdquo;&amp;gt;&amp;hellip;&amp;lt;/div&amp;gt;&amp;lt;divid=&amp;ldquo;tab4&amp;rdquo;&amp;gt;&amp;hellip;&amp;lt;/div&amp;gt;&amp;lt;divid=&amp;ldquo;tab4&amp;rdquo;&amp;gt;&amp;hellip;&amp;lt;/div&amp;gt;&amp;lt;divid=&amp;ldquo;tab1&amp;rdquo;&amp;gt;&amp;hellip;&amp;lt;/div&amp;gt;&amp;lt;divid=&amp;ldquo;tab2&amp;rdquo;&amp;gt;&amp;hellip;&amp;lt;/div&amp;gt;&amp;lt;divid=&amp;ldquo;tab-general&amp;rdquo;data-title=&amp;ldquo;General&amp;rdquo;class=&amp;ldquo;tab-live&amp;rdquo;&amp;gt;&amp;hellip;&amp;lt;/div&amp;gt; &amp;lt;divid=&amp;ldquo;tab-additional&amp;rdquo;data-title=&amp;ldquo;Additional&amp;rdquo;class=&amp;ldquo;tab-live&amp;rdquo;&amp;gt;&amp;hellip;&amp;lt;/div&amp;gt; //or$(&#39;#tabs&#39;).tabs(&amp;lsquo;open&amp;rsquo;, &#39;#tab1&#39;); //or$(&#39;#tabs&#39;).tabs(&amp;lsquo;close&amp;rsquo;, &#39;#tab1&#39;); </description>
+    </item>
+    
+    <item>
+      <title>Breadcrumbs</title>
+      <link>https://q905497297.github.io/docs/breadcrumbs/</link>
+      <pubDate>Mon, 10 Apr 2017 16:41:54 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/breadcrumbs/</guid>
+      <description>// html&amp;lt;nav id=&amp;ldquo;breadcrumbs-custom-separator&amp;rdquo; class=&amp;ldquo;breadcrumbs&amp;rdquo;&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;&amp;quot;&amp;gt;&amp;hellip;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;&amp;lt;span&amp;gt;&amp;hellip;&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/nav&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Pagination</title>
+      <link>https://q905497297.github.io/docs/pagination/</link>
+      <pubDate>Mon, 10 Apr 2017 16:42:03 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/pagination/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dropdown</title>
+      <link>https://q905497297.github.io/docs/dropdown/</link>
+      <pubDate>Mon, 10 Apr 2017 16:42:12 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/dropdown/</guid>
+      <description>// Dropdown &amp;lt;divclass=&amp;ldquo;dropdown hide&amp;rdquo;id=&amp;ldquo;my-dropdown&amp;rdquo;&amp;gt;&amp;lt;ahref=&amp;quot;&amp;quot;class=&amp;ldquo;close show-sm&amp;rdquo;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;&amp;lt;ahref=&amp;quot;&amp;quot;&amp;gt;&amp;hellip;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/div&amp;gt;// Dropdown &amp;lt;divclass=&amp;ldquo;dropdown hide&amp;rdquo;id=&amp;ldquo;my-dropdown&amp;rdquo;&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;p&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;p&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;href&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;#&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;data-action&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;dropdown-close&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;Close&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;  &amp;lt;/div&amp;gt;// Dropdown &amp;lt;divclass=&amp;ldquo;dropdown hide&amp;rdquo;id=&amp;ldquo;dropdown-fixed&amp;rdquo;&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;&amp;lt;ahref=&amp;quot;&amp;quot;&amp;gt;&amp;hellip;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/div&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Modal</title>
+      <link>https://q905497297.github.io/docs/modal/</link>
+      <pubDate>Mon, 10 Apr 2017 16:42:18 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/modal/</guid>
+      <description>// Markup &amp;lt;divid=&amp;ldquo;my-modal&amp;rdquo;class=&amp;ldquo;modal-box hide&amp;rdquo;&amp;gt; &amp;lt;divclass=&amp;ldquo;modal&amp;rdquo;&amp;gt; &amp;lt;span class=&amp;ldquo;close&amp;rdquo;&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;divclass=&amp;ldquo;modal-header&amp;rdquo;&amp;gt;Modal Header&amp;lt;/div&amp;gt; &amp;lt;divclass=&amp;ldquo;modal-body&amp;rdquo;&amp;gt;&amp;hellip;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; // Markup &amp;lt;divid=&amp;ldquo;ui-modal&amp;rdquo;class=&amp;ldquo;modal-box hide&amp;rdquo;&amp;gt; &amp;lt;divclass=&amp;ldquo;modal&amp;rdquo;&amp;gt; &amp;lt;span class=&amp;ldquo;close&amp;rdquo;&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;divclass=&amp;ldquo;modal-header&amp;rdquo;&amp;gt;UI Modal&amp;lt;/div&amp;gt; &amp;lt;divclass=&amp;ldquo;modal-body&amp;rdquo;&amp;gt;&amp;hellip; contentfrommodal.html &amp;hellip;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;
+// modal.html &amp;lt;p&amp;gt;&amp;hellip;&amp;lt;/p&amp;gt; &amp;lt;a href=&amp;quot;#&amp;quot;data-action=&amp;ldquo;modal-close&amp;rdquo;&amp;gt;Close&amp;lt;/a&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Sticky</title>
+      <link>https://q905497297.github.io/docs/sticky/</link>
+      <pubDate>Mon, 10 Apr 2017 16:42:26 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/sticky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collapse</title>
+      <link>https://q905497297.github.io/docs/collapse/</link>
+      <pubDate>Mon, 10 Apr 2017 16:42:50 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/collapse/</guid>
+      <description>&amp;lt;divid=&amp;ldquo;my-collapse-api&amp;rdquo;data-component=&amp;ldquo;collapse&amp;rdquo;&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;href&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;#box-1&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-toggle&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;div&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-box hide&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;box-1&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;div&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;href&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;#box-2&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-toggle&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;div&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-box hide&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;box-2&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;div&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;href&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;#box-3&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-toggle&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;div&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-box hide&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;box-3&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;.</description>
+    </item>
+    
+    <item>
+      <title>Offcanvas</title>
+      <link>https://q905497297.github.io/docs/offcanvas/</link>
+      <pubDate>Mon, 10 Apr 2017 16:42:43 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/offcanvas/</guid>
+      <description>&amp;lt;divid=&amp;ldquo;offcanvas-left&amp;rdquo;class=&amp;ldquo;hide&amp;rdquo;&amp;gt;&amp;lt;nav&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;&amp;hellip;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/nav&amp;gt;&amp;lt;/div&amp;gt;// Right + Close &amp;lt;ahref=&amp;quot;#&amp;quot;data-component=&amp;ldquo;offcanvas&amp;rdquo;data-target=&amp;quot;#offcanvas-right&amp;quot;data-direction=&amp;ldquo;right&amp;rdquo;&amp;gt;Open Right&amp;lt;/a&amp;gt;&amp;lt;divid=&amp;ldquo;offcanvas-right&amp;rdquo;class=&amp;ldquo;hide&amp;rdquo;&amp;gt;&amp;lt;ahref=&amp;quot;#&amp;quot;class=&amp;ldquo;close&amp;rdquo;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;nav&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;&amp;hellip;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/nav&amp;gt;&amp;lt;/div&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Toggleme</title>
+      <link>https://q905497297.github.io/docs/toggleme/</link>
+      <pubDate>Mon, 10 Apr 2017 16:42:59 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/toggleme/</guid>
+      <description>&amp;lt;navid=&amp;ldquo;navbar&amp;rdquo;class=&amp;ldquo;hide-sm&amp;rdquo;&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;&amp;lt;ahref=&amp;quot;#&amp;quot;&amp;gt;&amp;hellip;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/nav&amp;gt;&amp;lt;divid=&amp;ldquo;togglebox-target&amp;rdquo;class=&amp;ldquo;hide&amp;rdquo;&amp;gt; &amp;hellip; &amp;lt;/div&amp;gt; &amp;lt;divid=&amp;ldquo;togglebox-target-1&amp;rdquo;class=&amp;ldquo;hide&amp;rdquo;&amp;gt; &amp;hellip; &amp;lt;/div&amp;gt;
+&amp;lt;divid=&amp;ldquo;togglebox-target-2&amp;rdquo;class=&amp;ldquo;hide&amp;rdquo;&amp;gt; &amp;hellip; &amp;lt;/div&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Animation</title>
+      <link>https://q905497297.github.io/docs/animation/</link>
+      <pubDate>Mon, 10 Apr 2017 16:43:08 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Colors</title>
+      <link>https://q905497297.github.io/docs/colors/</link>
+      <pubDate>Mon, 10 Apr 2017 16:43:14 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/colors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sizing</title>
+      <link>https://q905497297.github.io/docs/sizing/</link>
+      <pubDate>Mon, 10 Apr 2017 16:43:21 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/sizing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mixins</title>
+      <link>https://q905497297.github.io/docs/mixins/</link>
+      <pubDate>Mon, 10 Apr 2017 16:43:36 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/mixins/</guid>
+      <description>// use mixins#my-layout{ @includeflex; }
+// use variables#my-layout{ padding: $base-line; } // use mixins@includetext-font(&amp;ldquo;Lato, &amp;lsquo;Helvetica Neue&amp;rsquo;, sans-serif&amp;rdquo;); @includeheadings-font(&amp;ldquo;Lato, &amp;lsquo;Helvetica Neue&amp;rsquo;, sans-serif&amp;rdquo;); @includebuttons-font(&amp;ldquo;Lato, &amp;lsquo;Helvetica Neue&amp;rsquo;, sans-serif&amp;rdquo;); @includeinputs-font(&amp;ldquo;Lato, &amp;lsquo;Helvetica Neue&amp;rsquo;, sans-serif&amp;rdquo;); // Headingsh1.title, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{ font-family: Lato, &amp;lsquo;Helvetica Neue&amp;rsquo;, sans-serif; }
+// Buttonsbutton, .button{ font-family: Lato, &amp;lsquo;Helvetica Neue&amp;rsquo;, sans-serif; }
+// Inputsinput, textarea, select { font-family: Lato, &amp;lsquo;Helvetica Neue&amp;rsquo;, sans-serif; } // min-width 768px and max-width 1024px;@includebreakpoint(768px, 1024px) {}</description>
+    </item>
+    
+    <item>
+      <title>Utils</title>
+      <link>https://q905497297.github.io/docs/utils/</link>
+      <pubDate>Mon, 10 Apr 2017 16:43:30 +0100</pubDate>
+      
+      <guid>https://q905497297.github.io/docs/utils/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
